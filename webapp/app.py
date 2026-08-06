@@ -780,8 +780,3 @@ else:
                     "Download class CSV", cls.to_csv(index=False),
                     f"harit_class_{int(N)}_seed{int(seed)}.csv", "text/csv",
                     **STRETCH)
-
-    st.divider()
-    st.caption("Harit Pathsala Eco-Score research · v1.0 · "
-               "All emission factors from the Nepal Climate Hackathon 2025 "
-               "organiser's Emission_factors.xlsx via src/logic.js")
