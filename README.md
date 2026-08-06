@@ -47,7 +47,8 @@ research/
 │   ├── key_results.json           published + recomputed results
 │   └── survey_template.md         real-survey specification (EN + नेपाली)
 ├── docs/
-│   └── research_notes.md          decisions, ambiguities, open items
+│   ├── research_notes.md          decisions, ambiguities, open items
+│   └── presentation_script.md     spoken walkthrough of the whole story
 └── README.md
 ```
 
