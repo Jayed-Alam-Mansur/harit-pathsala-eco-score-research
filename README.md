@@ -49,6 +49,7 @@ research/
 ├── docs/
 │   ├── research_notes.md          decisions, ambiguities, open items
 │   └── presentation_script.md     spoken walkthrough of the whole story
+├── final_story.html               self-contained narrative read / print-to-PDF
 └── README.md
 ```
 
@@ -148,6 +149,11 @@ cannot validate the emission factors or tell you the real floor percentage.
 ---
 
 ## Version history
+
+**v1.1** | 2026-08-06 | Added `final_story.html` — narrative companion to the
+slide deck: one continuous long-form read, the same seven teacher questions
+woven in at the point each was asked, 10 embedded figures, self-contained
+single file, print-ready (A4, background graphics on).
 
 **v1.0** | 2026-08-06 | Initial build complete — notebook (7 sections, 14
 figures at 300 DPI), Streamlit web app (4 pages), shared model module, survey
