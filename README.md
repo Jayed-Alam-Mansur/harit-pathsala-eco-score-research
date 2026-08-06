@@ -52,6 +52,7 @@ research/
 ├── final_story.html               self-contained narrative read / print-to-PDF
 ├── final_presentation.pptx        29-slide storytelling deck, speaker notes on every slide
 ├── webapp_guide.html              complete guide to the web app, with screenshots
+├── simple_script.html / .pdf      plain-English speaking script for the deck
 └── README.md
 ```
 
@@ -151,6 +152,11 @@ cannot validate the emission factors or tell you the real floor percentage.
 ---
 
 ## Version history
+
+**v1.3** | 2026-08-06 | Added `simple_script.pdf` — a plain-English speaking
+script matching all 29 slides of the deck one-to-one. Average 7.9 words per
+sentence, no sentence over 25 words. Includes a 3-minute cut, six likely
+questions with simple answers, and a 12-term glossary.
 
 **v1.2** | 2026-08-06 | Added `final_presentation.pptx` — 29-slide dark deck for
 projection, covering the full research plus the web app, with speaker notes on
