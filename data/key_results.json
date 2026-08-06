@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "project": "Harit Pathsala \u2014 Eco-Score research",
+    "researcher": "Jayed Alam Mansur",
+    "institution": "Kathmandu University \u2014 B.Tech Artificial Intelligence, Year 3",
+    "notebook": "research/notebook/eco_score_research.ipynb",
+    "population_N": 10000,
+    "seed": 42,
+    "monte_carlo_N": 10000,
+    "figures": 14,
+    "runtime_seconds": 7.8
+  },
+  "key_results": {
+    "sensitivity_cooking": -2.859,
+    "sensitivity_electricity": -2.76,
+    "sensitivity_waste": -1.985,
+    "sensitivity_transport": -0.256,
+    "sensitivity_stationery": -0.046,
+    "sensitivity_ratio": 62.0,
+    "sd_score_analytical": 5.92,
+    "sd_score_montecarlo": 5.99,
+    "agreement_pct": 1.29,
+    "near_boundary_clamp_pct": 19.6,
+    "population_mean_F": 2.246,
+    "population_mean_score": 31.9,
+    "floor_pct": 9.19,
+    "ceiling_pct": 0.0,
+    "r2_full": 0.8538,
+    "r2_unsaturated": 0.9997,
+    "floored_F_min": 2.99,
+    "floored_F_max": 8.91,
+    "household_baseline": 2.048,
+    "logistic_k": 1.7202,
+    "logistic_F0": 2.1883,
+    "entropy_original": 2.644,
+    "entropy_logistic": 2.765,
+    "entropy_percentile": 2.931,
+    "dead_zone_original_pct": 9.19,
+    "dead_zone_logistic_pct": 0.25,
+    "dead_zone_percentile_pct": 10.27,
+    "spearman_logistic": 1.0,
+    "pearson_logistic_vs_orig": 0.9972,
+    "percentile_F_low": 1.404,
+    "percentile_F_high": 3.227
+  },
+  "recomputed": {
+    "sensitivity_transport": -0.256,
+    "sensitivity_electricity": -2.76,
+    "sensitivity_cooking": -2.859,
+    "sensitivity_waste": -1.985,
+    "sensitivity_stationery": -0.046,
+    "sensitivity_ratio": 62.0,
+    "sd_score_analytical": 5.92,
+    "sd_score_montecarlo": 5.99,
+    "agreement_pct": 1.29,
+    "near_boundary_clamp_pct": 19.8,
+    "near_boundary_F": 2.817,
+    "population_mean_F": 2.246,
+    "population_mean_score": 31.9,
+    "household_baseline": 2.049,
+    "r2_full": 0.8639,
+    "r2_unsaturated": 0.9997,
+    "floor_pct": 9.2,
+    "ceiling_pct": 0.0,
+    "floored_F_min": 3.0,
+    "floored_F_max": 9.03,
+    "percentile_F_low": 1.393,
+    "percentile_F_high": 3.234,
+    "logistic_k": 1.7385,
+    "logistic_F0": 2.1888,
+    "entropy_original": 2.643,
+    "entropy_logistic": 2.773,
+    "entropy_percentile": 2.928,
+    "dead_zone_original_pct": 9.19,
+    "dead_zone_logistic_pct": 0.3,
+    "dead_zone_percentile_pct": 10.52,
+    "spearman_logistic": 1.0,
+    "pearson_logistic_vs_orig": 0.9968
+  },
+  "validation": {
+    "sensitivity_cooking": 0.0,
+    "sensitivity_electricity": 0.0,
+    "sensitivity_waste": 0.0,
+    "sensitivity_transport": 0.0,
+    "sensitivity_stationery": 0.0,
+    "sensitivity_ratio": 0.0,
+    "sd_score_analytical": 0.0,
+    "sd_score_montecarlo": 0.0,
+    "agreement_pct": 0.0,
+    "near_boundary_clamp_pct": 1.02,
+    "population_mean_F": 0.0,
+    "population_mean_score": 0.0,
+    "floor_pct": 0.109,
+    "ceiling_pct": null,
+    "r2_full": 1.183,
+    "r2_unsaturated": 0.0,
+    "floored_F_min": 0.334,
+    "floored_F_max": 1.347,
+    "household_baseline": 0.049,
+    "logistic_k": 1.064,
+    "logistic_F0": 0.023,
+    "entropy_original": 0.038,
+    "entropy_logistic": 0.289,
+    "entropy_percentile": 0.102,
+    "dead_zone_original_pct": 0.0,
+    "dead_zone_logistic_pct": 20.0,
+    "dead_zone_percentile_pct": 2.434,
+    "spearman_logistic": 0.0,
+    "pearson_logistic_vs_orig": 0.04,
+    "percentile_F_low": 0.783,
+    "percentile_F_high": 0.217
+  },
+  "emission_factors": {
+    "walk": 0.0,
+    "bicycle": 0.0,
+    "bus": 0.016,
+    "motorbike": 0.066,
+    "car": 0.19,
+    "grid_kwh": 0.23,
+    "solar_kwh": 0.04,
+    "lpg_per_kg": 1.51,
+    "lpg_cylinder_kg": 14.2,
+    "lpg_per_cylinder": 21.442,
+    "waste_per_kg": 0.827,
+    "stationery_per_npr": 0.001728476821192053
+  },
+  "uncertainty": {
+    "grid_kwh": 0.15,
+    "bus": 0.1,
+    "motorbike": 0.08,
+    "car": 0.1,
+    "lpg_per_cylinder": 0.05,
+    "waste_per_kg": 0.2,
+    "stationery_per_npr": 0.25
+  },
+  "population_spec": {
+    "N": 10000,
+    "seed": 42,
+    "mode_probs": {
+      "walk": 0.2,
+      "bicycle": 0.1,
+      "bus": 0.4,
+      "motorbike": 0.25,
+      "car": 0.05
+    },
+    "distance": {
+      "distribution": "lognormal",
+      "mean_km": 3.0,
+      "sigma": 0.8,
+      "clip": [
+        0.5,
+        20.0
+      ]
+    },
+    "electricity": {
+      "distribution": "normal",
+      "mean": 90.0,
+      "std": 35.0,
+      "clip": [
+        10.0,
+        300.0
+      ]
+    },
+    "solar_probability": 0.05,
+    "lpg": {
+      "distribution": "normal",
+      "mean": 1.2,
+      "std": 0.4,
+      "clip": [
+        0.25,
+        4.0
+      ]
+    },
+    "waste": {
+      "values": [
+        0.3,
+        0.6,
+        1.2
+      ],
+      "probs": [
+        0.3,
+        0.5,
+        0.2
+      ]
+    },
+    "stationery": {
+      "distribution": "normal",
+      "mean": 200.0,
+      "std": 80.0,
+      "clip": [
+        50.0,
+        600.0
+      ]
+    },
+    "draw_order": [
+      "mode",
+      "lpg",
+      "distance",
+      "stationery",
+      "electricity",
+      "solar",
+      "waste"
+    ]
+  },
+  "worked_example": {
+    "inputs": {
+      "transport_mode": "bus",
+      "distance_km": 2.0,
+      "electricity_units_monthly": 90,
+      "has_solar": false,
+      "lpg_cylinders_monthly": 1.0,
+      "waste_kg_day": 0.6,
+      "stationery_npr_monthly": 200
+    },
+    "components": {
+      "transport": 0.064,
+      "electricity": 0.69,
+      "cooking": 0.714733,
+      "waste": 0.4962,
+      "stationery": 0.011523
+    },
+    "daily_total": 1.976457,
+    "eco_score": 41
+  },
+  "population_summary": {
+    "mean_F": 2.2461,
+    "median_F": 2.1888,
+    "std_F": 0.6067,
+    "min_F": 0.5184,
+    "max_F": 9.0305,
+    "p5_F": 1.3934,
+    "p95_F": 3.2335,
+    "mean_score_original": 31.906,
+    "mean_score_percentile": 54.797,
+    "mean_score_logistic": 48.719
+  }
+}

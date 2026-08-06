@@ -1,0 +1,9 @@
+# Deployment manifest for Streamlit Community Cloud.
+# Streamlit Cloud looks for requirements.txt at the repository root; this file
+# mirrors webapp/requirements.txt, which stays in place for local use.
+streamlit>=1.32.0
+plotly>=5.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+statsmodels>=0.14.0
