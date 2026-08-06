@@ -50,6 +50,8 @@ research/
 │   ├── research_notes.md          decisions, ambiguities, open items
 │   └── presentation_script.md     spoken walkthrough of the whole story
 ├── final_story.html               self-contained narrative read / print-to-PDF
+├── final_presentation.pptx        29-slide storytelling deck, speaker notes on every slide
+├── webapp_guide.html              complete guide to the web app, with screenshots
 └── README.md
 ```
 
@@ -149,6 +151,12 @@ cannot validate the emission factors or tell you the real floor percentage.
 ---
 
 ## Version history
+
+**v1.2** | 2026-08-06 | Added `final_presentation.pptx` — 29-slide dark deck for
+projection, covering the full research plus the web app, with speaker notes on
+every slide and live screenshots of all four pages. Added `webapp_guide.html` —
+a complete self-contained guide to the application: how it works, every control
+on every page, where each number comes from, how to change it, troubleshooting.
 
 **v1.1** | 2026-08-06 | Added `final_story.html` — narrative companion to the
 slide deck: one continuous long-form read, the same seven teacher questions
